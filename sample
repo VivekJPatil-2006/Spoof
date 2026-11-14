@@ -2,3 +2,6 @@ curl -L -o /usr/bin/jq.exe https://github.com/jqlang/jq/releases/latest/download
 
 
 curl --ssl-no-revoke -L -o /usr/bin/jq.exe https://github.com/jqlang/jq/releases/latest/download/jq-windows-amd64.exe
+
+
+Invoke-WebRequest -Uri "https://github.com/jqlang/jq/releases/latest/download/jq-windows-amd64.exe" -OutFile "C:\Program Files\Git\usr\bin\jq.exe"
