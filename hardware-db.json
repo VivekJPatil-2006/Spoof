@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "profiles": {
+    "lenovo_thinkpad_t14": {
+      "label": "Lenovo ThinkPad T14 Gen 4 (Intel i5)",
+      "system": {
+        "manufacturer": "LENOVO",
+        "model": "21UKCTO1WW",
+        "version": "ThinkPad T14 Gen 4",
+        "serial": "PF3ABCD"
+      },
+      "bios": {
+        "vendor": "LENOVO",
+        "version": "R29ET99W (1.51)",
+        "date": "04/09/2024",
+        "major": "1",
+        "minor": "51",
+        "firmware_major": "1",
+        "firmware_minor": "51"
+      },
+      "board": {
+        "vendor": "LENOVO",
+        "product": "21UKCTO1WW",
+        "version": "SDK0T76530 WIN"
+      },
+      "chassis": {
+        "vendor": "LENOVO",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i5-1335U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 980 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "5B2QGXA7"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "mac_prefix": "A4:4C:C8",
+        "pci_name": "Intel Corporation Wi-Fi 6E AX211"
+      },
+      "acpi": {
+        "oem_id": "LENOVO",
+        "creator_id": "LNVO",
+        "creator_rev": "20240409"
+      }
+    },
+    "dell_latitude_5440": {
+      "label": "Dell Latitude 5440 (Intel i7)",
+      "system": {
+        "manufacturer": "Dell Inc.",
+        "model": "Latitude 5440",
+        "version": "",
+        "serial": "DLYABCD"
+      },
+      "bios": {
+        "vendor": "Dell Inc.",
+        "version": "1.21.0",
+        "date": "05/02/2024",
+        "major": "1",
+        "minor": "21",
+        "firmware_major": "1",
+        "firmware_minor": "21"
+      },
+      "board": {
+        "vendor": "Dell Inc.",
+        "product": "0YT9RC",
+        "version": "A00"
+      },
+      "chassis": {
+        "vendor": "Dell Inc.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i7-1365U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "WD Blue SN570 1TB",
+        "serial_prefix": "1907",
+        "firmware": "W2306A0"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "mac_prefix": "8C:8C:AA",
+        "pci_name": "Intel Corporation Wi-Fi 6 AX201"
+      },
+      "acpi": {
+        "oem_id": "DELL",
+        "creator_id": "DELL",
+        "creator_rev": "20240502"
+      }
+    },
+    "hp_probook_450_g10": {
+      "label": "HP ProBook 450 G10 (Intel i5)",
+      "system": {
+        "manufacturer": "HP",
+        "model": "ProBook 450 G10",
+        "version": "",
+        "serial": "5CDABCD"
+      },
+      "bios": {
+        "vendor": "HP",
+        "version": "U99 Ver. 01.05.00",
+        "date": "03/14/2024",
+        "major": "1",
+        "minor": "5",
+        "firmware_major": "1",
+        "firmware_minor": "5"
+      },
+      "board": {
+        "vendor": "HP",
+        "product": "8B47",
+        "version": "KBC Version 01.05.00"
+      },
+      "chassis": {
+        "vendor": "HP",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i5-1345U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Crucial T500 1TB",
+        "serial_prefix": "2425",
+        "firmware": "P8CR411"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "mac_prefix": "3C:E9:F7",
+        "pci_name": "Intel Corporation Wi-Fi 6E AX211"
+      },
+      "acpi": {
+        "oem_id": "HP",
+        "creator_id": "HP",
+        "creator_rev": "20240314"
+      }
+    },
+    "asus_zenbook_14": {
+      "label": "ASUS ZenBook 14 OLED (Intel i7)",
+      "system": {
+        "manufacturer": "ASUSTeK COMPUTER INC.",
+        "model": "UX3402ZA",
+        "version": "1.0",
+        "serial": "R5NABCD"
+      },
+      "bios": {
+        "vendor": "American Megatrends International, LLC.",
+        "version": "UX3402ZA.305",
+        "date": "03/28/2024",
+        "major": "3",
+        "minor": "5",
+        "firmware_major": "3",
+        "firmware_minor": "5"
+      },
+      "board": {
+        "vendor": "ASUSTeK COMPUTER INC.",
+        "product": "UX3402ZA",
+        "version": "1.0"
+      },
+      "chassis": {
+        "vendor": "ASUSTeK COMPUTER INC.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i7-1255U",
+        "cores": 10,
+        "threads": "12"
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 980 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "5B2QGXA7"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "mac_prefix": "F8:E4:E3",
+        "pci_name": "Intel Corporation Wi-Fi 6 AX201"
+      },
+      "acpi": {
+        "oem_id": "ASUS",
+        "creator_id": "ASUS",
+        "creator_rev": "20240328"
+      }
+    },
+    "lenovo_ideapad_5": {
+      "label": "Lenovo IdeaPad 5 Pro (AMD Ryzen 7)",
+      "system": {
+        "manufacturer": "LENOVO",
+        "model": "82X5009ESP",
+        "version": "IdeaPad 5 Pro 16ARH7",
+        "serial": "PF4ABCD"
+      },
+      "bios": {
+        "vendor": "LENOVO",
+        "version": "JZCN27WW(V1.09)",
+        "date": "02/15/2024",
+        "major": "1",
+        "minor": "9",
+        "firmware_major": "1",
+        "firmware_minor": "9"
+      },
+      "board": {
+        "vendor": "LENOVO",
+        "product": "JZCN27WW",
+        "version": "SDK0Q94862 WIN"
+      },
+      "chassis": {
+        "vendor": "LENOVO",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "AMD Ryzen 7 6800H with Radeon Graphics",
+        "cores": 8,
+        "threads": 16
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "AMD Radeon 680M",
+        "pci_name": "Advanced Micro Devices, Inc. Radeon 680M"
+      },
+      "nic": {
+        "name": "MediaTek MT7921 Wi-Fi 6E",
+        "mac_prefix": "A4:4C:C8",
+        "pci_name": "MediaTek Inc. MT7921"
+      },
+      "acpi": {
+        "oem_id": "LENOVO",
+        "creator_id": "LNVO",
+        "creator_rev": "20240215"
+      }
+    },
+    "dell_xps_15": {
+      "label": "Dell XPS 15 9530 (Intel i7)",
+      "system": {
+        "manufacturer": "Dell Inc.",
+        "model": "XPS 15 9530",
+        "version": "",
+        "serial": "DLYBCDE"
+      },
+      "bios": {
+        "vendor": "Dell Inc.",
+        "version": "1.18.0",
+        "date": "01/10/2024",
+        "major": "1",
+        "minor": "18",
+        "firmware_major": "1",
+        "firmware_minor": "18"
+      },
+      "board": {
+        "vendor": "Dell Inc.",
+        "product": "0W8F7C",
+        "version": "A00"
+      },
+      "chassis": {
+        "vendor": "Dell Inc.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i7-13700H",
+        "cores": 14,
+        "threads": 20
+      },
+      "memory": 32768,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "pci_name": "NVIDIA Corporation GeForce RTX 4060 Laptop GPU"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "mac_prefix": "8C:8C:AA",
+        "pci_name": "Intel Corporation Wi-Fi 6E AX211"
+      },
+      "acpi": {
+        "oem_id": "DELL",
+        "creator_id": "DELL",
+        "creator_rev": "20240110"
+      }
+    },
+    "hp_elitebook_840": {
+      "label": "HP EliteBook 840 G11 (Intel i5)",
+      "system": {
+        "manufacturer": "HP",
+        "model": "EliteBook 840 G11",
+        "version": "",
+        "serial": "5CDBCDE"
+      },
+      "bios": {
+        "vendor": "HP",
+        "version": "U96 Ver. 01.02.00",
+        "date": "04/22/2024",
+        "major": "1",
+        "minor": "2",
+        "firmware_major": "1",
+        "firmware_minor": "2"
+      },
+      "board": {
+        "vendor": "HP",
+        "product": "8B57",
+        "version": "KBC Version 01.02.00"
+      },
+      "chassis": {
+        "vendor": "HP",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i5-1355U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "WD Black SN850X 1TB",
+        "serial_prefix": "1907",
+        "firmware": "620201WD"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "mac_prefix": "3C:E9:F7",
+        "pci_name": "Intel Corporation Wi-Fi 6E AX211"
+      },
+      "acpi": {
+        "oem_id": "HP",
+        "creator_id": "HP",
+        "creator_rev": "20240422"
+      }
+    },
+    "acer_swift_x": {
+      "label": "Acer Swift X 14 (AMD Ryzen 7)",
+      "system": {
+        "manufacturer": "Acer",
+        "model": "SFX14-71G",
+        "version": "Swift X 14",
+        "serial": "NHXBCDE"
+      },
+      "bios": {
+        "vendor": "Insyde Corp.",
+        "version": "1.09",
+        "date": "03/05/2024",
+        "major": "1",
+        "minor": "9",
+        "firmware_major": "1",
+        "firmware_minor": "9"
+      },
+      "board": {
+        "vendor": "Acer",
+        "product": "SFX14-71G",
+        "version": "V1.09"
+      },
+      "chassis": {
+        "vendor": "Acer",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "AMD Ryzen 7 7840HS with Radeon 780M",
+        "cores": 8,
+        "threads": 16
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+        "pci_name": "NVIDIA Corporation GeForce RTX 4050 Laptop GPU"
+      },
+      "nic": {
+        "name": "MediaTek MT7922 Wi-Fi 6E",
+        "mac_prefix": "D8:3B:BF",
+        "pci_name": "MediaTek Inc. MT7922"
+      },
+      "acpi": {
+        "oem_id": "ACER",
+        "creator_id": "ACER",
+        "creator_rev": "20240305"
+      }
+    },
+    "msi_modern_15": {
+      "label": "MSI Modern 15 (Intel i7)",
+      "system": {
+        "manufacturer": "Micro-Star International Co., Ltd.",
+        "model": "Modern 15 B12M",
+        "version": "1.0",
+        "serial": "MSIBCDE"
+      },
+      "bios": {
+        "vendor": "American Megatrends International, LLC.",
+        "version": "15K3IMS.10C",
+        "date": "11/20/2023",
+        "major": "1",
+        "minor": "10",
+        "firmware_major": "1",
+        "firmware_minor": "10"
+      },
+      "board": {
+        "vendor": "Micro-Star International Co., Ltd.",
+        "product": "MS-15K3",
+        "version": "REV:1.0"
+      },
+      "chassis": {
+        "vendor": "Micro-Star International Co., Ltd.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i7-1255U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Kingston NV2 1TB",
+        "serial_prefix": "SF30",
+        "firmware": "22330080"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "mac_prefix": "D4:5D:64",
+        "pci_name": "Intel Corporation Wi-Fi 6 AX201"
+      },
+      "acpi": {
+        "oem_id": "MSI",
+        "creator_id": "MSI",
+        "creator_rev": "20231120"
+      }
+    },
+    "razer_blade_14": {
+      "label": "Razer Blade 14 (AMD Ryzen 9)",
+      "system": {
+        "manufacturer": "Razer",
+        "model": "Blade 14 (RZ09-0492)",
+        "version": "",
+        "serial": "RZ4BCDE"
+      },
+      "bios": {
+        "vendor": "Razer",
+        "version": "8.05",
+        "date": "12/08/2023",
+        "major": "8",
+        "minor": "5",
+        "firmware_major": "8",
+        "firmware_minor": "5"
+      },
+      "board": {
+        "vendor": "Razer",
+        "product": "Blade14_RZ09-0492",
+        "version": "1.05"
+      },
+      "chassis": {
+        "vendor": "Razer",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "AMD Ryzen 9 7940HS with Radeon 780M",
+        "cores": 8,
+        "threads": 16
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "pci_name": "NVIDIA Corporation GeForce RTX 4070 Laptop GPU"
+      },
+      "nic": {
+        "name": "MediaTek MT7922 Wi-Fi 6E",
+        "mac_prefix": "DC:71:96",
+        "pci_name": "MediaTek Inc. MT7922"
+      },
+      "acpi": {
+        "oem_id": "RAZER",
+        "creator_id": "RAZR",
+        "creator_rev": "20231208"
+      }
+    },
+    "samsung_galaxy_book3": {
+      "label": "Samsung Galaxy Book3 Pro (Intel i7)",
+      "system": {
+        "manufacturer": "Samsung Electronics Co., Ltd.",
+        "model": "NP940XFG-KG1ES",
+        "version": "Galaxy Book3 Pro 14",
+        "serial": "SAMBCDE"
+      },
+      "bios": {
+        "vendor": "American Megatrends International, LLC.",
+        "version": "P07AGD",
+        "date": "06/14/2023",
+        "major": "7",
+        "minor": "1",
+        "firmware_major": "7",
+        "firmware_minor": "1"
+      },
+      "board": {
+        "vendor": "Samsung Electronics Co., Ltd.",
+        "product": "NP940XFG",
+        "version": "REV:1.0"
+      },
+      "chassis": {
+        "vendor": "Samsung Electronics Co., Ltd.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i7-1360P",
+        "cores": 12,
+        "threads": 16
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD PM9B1 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QGXA7"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "mac_prefix": "F8:E4:E3",
+        "pci_name": "Intel Corporation Wi-Fi 6E AX211"
+      },
+      "acpi": {
+        "oem_id": "SAMSUNG",
+        "creator_id": "SMSNG",
+        "creator_rev": "20230614"
+      }
+    },
+    "microsoft_surface_5": {
+      "label": "Microsoft Surface Laptop 5 (Intel i5)",
+      "system": {
+        "manufacturer": "Microsoft Corporation",
+        "model": "Surface Laptop 5",
+        "version": "",
+        "serial": "MS5BCDE"
+      },
+      "bios": {
+        "vendor": "Microsoft Corporation",
+        "version": "14.6.140",
+        "date": "09/18/2023",
+        "major": "14",
+        "minor": "6",
+        "firmware_major": "14",
+        "firmware_minor": "6"
+      },
+      "board": {
+        "vendor": "Microsoft Corporation",
+        "product": "Surface Laptop 5",
+        "version": "14.6.140"
+      },
+      "chassis": {
+        "vendor": "Microsoft Corporation",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i5-1235U",
+        "cores": 10,
+        "threads": 12
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD PM9B1 512GB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QGXA7"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "mac_prefix": "B0:7F:B9",
+        "pci_name": "Intel Corporation Wi-Fi 6 AX201"
+      },
+      "acpi": {
+        "oem_id": "MSFT",
+        "creator_id": "MSFT",
+        "creator_rev": "20230918"
+      }
+    },
+    "huawei_matebook_14": {
+      "label": "Huawei MateBook 14 (Intel i5)",
+      "system": {
+        "manufacturer": "HUAWEI",
+        "model": "MateBook 14",
+        "version": "KLV-WX",
+        "serial": "HW5BCDE"
+      },
+      "bios": {
+        "vendor": "HUAWEI",
+        "version": "1.06",
+        "date": "08/22/2023",
+        "major": "1",
+        "minor": "6",
+        "firmware_major": "1",
+        "firmware_minor": "6"
+      },
+      "board": {
+        "vendor": "HUAWEI",
+        "product": "MateBook14-WXX",
+        "version": "1.06"
+      },
+      "chassis": {
+        "vendor": "HUAWEI",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i5-1340P",
+        "cores": 12,
+        "threads": 16
+      },
+      "memory": 16384,
+      "disk": {
+        "model": "Samsung SSD 980 PRO 512GB",
+        "serial_prefix": "S6ZP",
+        "firmware": "5B2QGXA7"
+      },
+      "gpu": {
+        "name": "Intel(R) Iris(R) Xe Graphics",
+        "pci_name": "Intel Corporation Iris Xe Graphics"
+      },
+      "nic": {
+        "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+        "mac_prefix": "B8:3E:59",
+        "pci_name": "Intel Corporation Wi-Fi 6 AX201"
+      },
+      "acpi": {
+        "oem_id": "HUAWEI",
+        "creator_id": "HUAWEI",
+        "creator_rev": "20230822"
+      }
+    },
+    "asus_rog_strix_g16": {
+      "label": "ASUS ROG Strix G16 (Intel i9)",
+      "system": {
+        "manufacturer": "ASUSTeK COMPUTER INC.",
+        "model": "ROG Strix G16",
+        "version": "G614JI",
+        "serial": "R7NBCDE"
+      },
+      "bios": {
+        "vendor": "American Megatrends International, LLC.",
+        "version": "G614JI.308",
+        "date": "04/11/2024",
+        "major": "3",
+        "minor": "8",
+        "firmware_major": "3",
+        "firmware_minor": "8"
+      },
+      "board": {
+        "vendor": "ASUSTeK COMPUTER INC.",
+        "product": "G614JI",
+        "version": "1.0"
+      },
+      "chassis": {
+        "vendor": "ASUSTeK COMPUTER INC.",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "Intel(R) Core(TM) i9-13980HX",
+        "cores": 24,
+        "threads": 32
+      },
+      "memory": 32768,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 2TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "pci_name": "NVIDIA Corporation GeForce RTX 4070 Laptop GPU"
+      },
+      "nic": {
+        "name": "MediaTek MT7922 Wi-Fi 6E",
+        "mac_prefix": "F8:E4:E3",
+        "pci_name": "MediaTek Inc. MT7922"
+      },
+      "acpi": {
+        "oem_id": "ASUS",
+        "creator_id": "ASUS",
+        "creator_rev": "20240411"
+      }
+    },
+    "lenovo_legion_5": {
+      "label": "Lenovo Legion 5 Pro (AMD Ryzen 7)",
+      "system": {
+        "manufacturer": "LENOVO",
+        "model": "82WK009QES",
+        "version": "Legion 5 Pro 16ARX8",
+        "serial": "PF5BCDE"
+      },
+      "bios": {
+        "vendor": "LENOVO",
+        "version": "K1CN38WW(V2.04)",
+        "date": "03/19/2024",
+        "major": "2",
+        "minor": "4",
+        "firmware_major": "2",
+        "firmware_minor": "4"
+      },
+      "board": {
+        "vendor": "LENOVO",
+        "product": "K1CN38WW",
+        "version": "SDK0J84389 WIN"
+      },
+      "chassis": {
+        "vendor": "LENOVO",
+        "type": "10"
+      },
+      "cpu": {
+        "brand": "AMD Ryzen 7 7745HX with Radeon Graphics",
+        "cores": 8,
+        "threads": 16
+      },
+      "memory": 32768,
+      "disk": {
+        "model": "Samsung SSD 990 PRO 1TB",
+        "serial_prefix": "S6ZP",
+        "firmware": "4B2QJXD7"
+      },
+      "gpu": {
+        "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "pci_name": "NVIDIA Corporation GeForce RTX 4070 Laptop GPU"
+      },
+      "nic": {
+        "name": "Realtek RTL8852BE Wi-Fi 6E",
+        "mac_prefix": "A4:4C:C8",
+        "pci_name": "Realtek Semiconductor RTL8852BE"
+      },
+      "acpi": {
+        "oem_id": "LENOVO",
+        "creator_id": "LNVO",
+        "creator_rev": "20240319"
+      }
+    }
+  },
+  "peripherals": {
+    "webcams": {
+      "logitech_c920": {
+        "label": "Logitech C920 HD Pro Webcam",
+        "vendor_id": "046d",
+        "product_id": "082d",
+        "vendor_name": "Logitech, Inc.",
+        "product_name": "HD Pro Webcam C920"
+      },
+      "logitech_brio": {
+        "label": "Logitech BRIO 4K",
+        "vendor_id": "046d",
+        "product_id": "085b",
+        "vendor_name": "Logitech, Inc.",
+        "product_name": "BRIO 4K Stream Edition"
+      },
+      "microsoft_lifecam": {
+        "label": "Microsoft LifeCam HD-3000",
+        "vendor_id": "045e",
+        "product_id": "0779",
+        "vendor_name": "Microsoft Corp.",
+        "product_name": "LifeCam HD-3000"
+      },
+      "aukey_pc_wm1": {
+        "label": "AUKEY PC-WM1 1080p",
+        "vendor_id": "3344",
+        "product_id": "1234",
+        "vendor_name": "AUKEY",
+        "product_name": "PC-WM1 Webcam"
+      },
+      "razor_kiyo": {
+        "label": "Razer Kiyo Pro",
+        "vendor_id": "1532",
+        "product_id": "0e08",
+        "vendor_name": "Razer USA Ltd.",
+        "product_name": "Kiyo Pro"
+      },
+      "logitech_c270": {
+        "label": "Logitech C270 HD",
+        "vendor_id": "046d",
+        "product_id": "0825",
+        "vendor_name": "Logitech, Inc.",
+        "product_name": "HD Webcam C270"
+      },
+      "hp_w200": {
+        "label": "HP W200 Webcam",
+        "vendor_id": "03f0",
+        "product_id": "e408",
+        "vendor_name": "HP, Inc",
+        "product_name": "HP Webcam W200"
+      },
+      "lenovo_500": {
+        "label": "Lenovo 500 FHD Webcam",
+        "vendor_id": "30de",
+        "product_id": "6100",
+        "vendor_name": "Lenovo",
+        "product_name": "500 FHD Webcam"
+      }
+    },
+    "microphones": {
+      "logitech_h390": {
+        "label": "Logitech H390 Headset",
+        "vendor_id": "046d",
+        "product_id": "0a0c",
+        "vendor_name": "Logitech, Inc.",
+        "product_name": "H390 Headset"
+      },
+      "jabra_evolve2": {
+        "label": "Jabra Evolve2 40",
+        "vendor_id": "0b0e",
+        "product_id": "03de",
+        "vendor_name": "GN Netcom Jabra",
+        "product_name": "Evolve2 40"
+      },
+      "blue_yeti": {
+        "label": "Blue Yeti X",
+        "vendor_id": "b58e",
+        "product_id": "0362",
+        "vendor_name": "Blue Microphones",
+        "product_name": "Yeti X"
+      },
+      "sennheiser_spp": {
+        "label": "Sennheiser SP 30",
+        "vendor_id": "1395",
+        "product_id": "0021",
+        "vendor_name": "Sennheiser Communications",
+        "product_name": "SP 30"
+      },
+      "microsoft_lifecam_mic": {
+        "label": "Microsoft LifeCam Mic",
+        "vendor_id": "045e",
+        "product_id": "0779",
+        "vendor_name": "Microsoft Corp.",
+        "product_name": "LifeCam HD-3000 Mic"
+      },
+      "plantronics_c3220": {
+        "label": "Plantronics C3220",
+        "vendor_id": "047f",
+        "product_id": "c056",
+        "vendor_name": "Plantronics",
+        "product_name": "C3220"
+      },
+      "logitech_c920_mic": {
+        "label": "Logitech C920 Mic (integrado)",
+        "vendor_id": "046d",
+        "product_id": "082d",
+        "vendor_name": "Logitech, Inc.",
+        "product_name": "C920 Mic"
+      }
+    },
+    "speakers": {
+      "realtek_generic": {
+        "label": "Realtek High Definition Audio",
+        "vendor_name": "Realtek Semiconductor Corp.",
+        "device_name": "Realtek High Definition Audio",
+        "pci_id": "10ec:0262"
+      },
+      "logitech_z200": {
+        "label": "Logitech Z200 Speakers",
+        "vendor_name": "Logitech, Inc.",
+        "device_name": "Z200 Stereo Speakers",
+        "usb_id": "046d:0a0c"
+      },
+      "jabra_speak": {
+        "label": "Jabra Speak 510",
+        "vendor_name": "GN Netcom Jabra",
+        "device_name": "Jabra Speak 510",
+        "usb_id": "0b0e:0412"
+      },
+      "creative_pebble": {
+        "label": "Creative Pebble V3",
+        "vendor_name": "Creative Technology Ltd",
+        "device_name": "Pebble V3",
+        "usb_id": "041e:3f0a"
+      },
+      "intel_audio": {
+        "label": "Intel Smart Sound Technology",
+        "vendor_name": "Intel Corporation",
+        "device_name": "Smart Sound Technology Audio Controller",
+        "pci_id": "8086:51c8"
+      },
+      "amd_audio": {
+        "label": "AMD Audio Coprocessor",
+        "vendor_name": "Advanced Micro Devices, Inc.",
+        "device_name": "Audio Coprocessor",
+        "pci_id": "1022:15e2"
+      },
+      "lenovo_dolby": {
+        "label": "Lenovo Dolby Audio (integrado)",
+        "vendor_name": "Lenovo",
+        "device_name": "Dolby Audio Speaker System",
+        "pci_id": "10ec:0285"
+      },
+      "dell_waves": {
+        "label": "Dell Waves MaxxAudio (integrado)",
+        "vendor_name": "Dell Inc.",
+        "device_name": "Waves MaxxAudio Pro Speaker",
+        "pci_id": "10ec:0326"
+      }
+    }
+  }
+}

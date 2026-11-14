@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "source": "VM-Ghost project",
+  "platform": "win32",
+  "categories": [
+    {
+      "name": "Virtual machines and guest tools",
+      "programs": [
+        { "name": "VirtualBox", "processes": ["VirtualBox.exe", "VirtualBoxVM.exe"] },
+        { "name": "VirtualBox Guest Additions", "processes": ["VBoxService.exe", "VBoxTray.exe", "VBoxControl.exe"] },
+        { "name": "VMware Workstation", "processes": ["vmware.exe", "vmplayer.exe"] },
+        { "name": "VMware Tools", "processes": ["vmtoolsd.exe", "vmwaretray.exe", "vmwareuser.exe"] },
+        { "name": "Hyper-V", "processes": ["vmms.exe", "vmwp.exe", "vmsp.exe"] },
+        { "name": "Docker Desktop", "processes": ["Docker Desktop.exe"] },
+        { "name": "WSL", "processes": ["wsl.exe", "wslhost.exe"] },
+        { "name": "QEMU", "processes": ["qemu-system-x86_64.exe", "qemu-system-i386.exe"] }
+      ]
+    },
+    {
+      "name": "Remote desktop",
+      "programs": [
+        { "name": "TeamViewer", "processes": ["TeamViewer.exe"] },
+        { "name": "AnyDesk", "processes": ["AnyDesk.exe"] },
+        { "name": "Windows RDP", "processes": ["mstsc.exe", "rdpclip.exe"] },
+        { "name": "VNC", "processes": ["vncviewer.exe", "winvnc.exe", "tvnserver.exe"] },
+        { "name": "Splashtop", "processes": ["SplashtopPersonal.exe", "SRServer.exe"] },
+        { "name": "NoMachine", "processes": ["nxclient.exe", "nxserver.bin"] },
+        { "name": "Chrome Remote Desktop", "processes": ["remoting_host.exe"] },
+        { "name": "RustDesk", "processes": ["RustDesk.exe"] },
+        { "name": "GoToMyPC", "processes": ["g2m.exe", "g2mcomm.exe"] }
+      ]
+    },
+    {
+      "name": "Screen capture and recording",
+      "programs": [
+        { "name": "OBS Studio", "processes": ["obs64.exe", "obs32.exe"] },
+        { "name": "ShareX", "processes": ["ShareX.exe"] },
+        { "name": "Snagit", "processes": ["SnagitCapture.exe", "SnagitEditor.exe"] },
+        { "name": "Camtasia", "processes": ["CamtasiaStudio.exe", "Camtasia.exe"] },
+        { "name": "Bandicam", "processes": ["bdcam.exe"] },
+        { "name": "Fraps", "processes": ["FRAPS.exe"] },
+        { "name": "Xbox Game Bar", "processes": ["GameBar.exe", "GameDVR.exe"] },
+        { "name": "Action Recorder", "processes": ["Action.exe"] },
+        { "name": "Debut Video Capture", "processes": ["Debut.exe"] }
+      ]
+    },
+    {
+      "name": "Messaging and communication",
+      "programs": [
+        { "name": "WhatsApp", "processes": ["WhatsApp.exe"] },
+        { "name": "Telegram", "processes": ["Telegram.exe"] },
+        { "name": "Discord", "processes": ["Discord.exe"] },
+        { "name": "Slack", "processes": ["slack.exe"] },
+        { "name": "Microsoft Teams", "processes": ["Teams.exe", "ms-teams.exe"] },
+        { "name": "Zoom", "processes": ["Zoom.exe"] },
+        { "name": "Skype", "processes": ["Skype.exe"] },
+        { "name": "Signal", "processes": ["Signal.exe"] },
+        { "name": "WeChat", "processes": ["WeChat.exe"] },
+        { "name": "Line", "processes": ["Line.exe"] },
+        { "name": "Viber", "processes": ["Viber.exe"] },
+        { "name": "Webex", "processes": ["CiscoCollabHost.exe", "Webex.exe"] },
+        { "name": "GoToMeeting", "processes": ["G2M.exe", "g2mcomm.exe"] }
+      ]
+    },
+    {
+      "name": "Web browsers (secondary)",
+      "programs": [
+        { "name": "Google Chrome", "processes": ["chrome.exe"] },
+        { "name": "Mozilla Firefox", "processes": ["firefox.exe"] },
+        { "name": "Microsoft Edge", "processes": ["msedge.exe"] },
+        { "name": "Opera", "processes": ["opera.exe"] },
+        { "name": "Brave", "processes": ["brave.exe"] },
+        { "name": "Tor Browser", "processes": ["tor.exe", "firefox.exe"] }
+      ]
+    },
+    {
+      "name": "VPN and proxy",
+      "programs": [
+        { "name": "NordVPN", "processes": ["nordvpn.exe", "NordVPN.exe"] },
+        { "name": "ExpressVPN", "processes": ["ExpressVPN.exe"] },
+        { "name": "ProtonVPN", "processes": ["protonvpn.exe"] },
+        { "name": "OpenVPN", "processes": ["openvpn.exe", "openvpn-gui.exe"] },
+        { "name": "WireGuard", "processes": ["wireguard.exe"] },
+        { "name": "Tailscale", "processes": ["tailscale.exe"] },
+        { "name": "Surfshark", "processes": ["Surfshark.exe"] },
+        { "name": "Mullvad VPN", "processes": ["mullvad.exe"] },
+        { "name": "TunnelBear", "processes": ["TunnelBear.exe"] },
+        { "name": "CyberGhost", "processes": ["CyberGhost.exe"] }
+      ]
+    },
+    {
+      "name": "Audio and video recording",
+      "programs": [
+        { "name": "Audacity", "processes": ["audacity.exe"] },
+        { "name": "FL Studio", "processes": ["FL64.exe", "FL.exe"] },
+        { "name": "Reaper", "processes": ["reaper.exe"] },
+        { "name": "VoiceMeeter", "processes": ["voicemeeter.exe", "voicemeeter8.exe"] },
+        { "name": "Adobe Audition", "processes": ["Audition.exe"] }
+      ]
+    },
+    {
+      "name": "Development tools and IDEs",
+      "programs": [
+        { "name": "Visual Studio Code", "processes": ["Code.exe", "Code - Insiders.exe"] },
+        { "name": "IntelliJ IDEA", "processes": ["idea64.exe", "idea.exe"] },
+        { "name": "PyCharm", "processes": ["pycharm64.exe", "pycharm.exe"] },
+        { "name": "Eclipse", "processes": ["eclipse.exe"] },
+        { "name": "Visual Studio", "processes": ["devenv.exe"] },
+        { "name": "Android Studio", "processes": ["studio64.exe", "studio.exe"] },
+        { "name": "NetBeans", "processes": ["netbeans.exe"] },
+        { "name": "WebStorm", "processes": ["webstorm64.exe"] },
+        { "name": "Sublime Text", "processes": ["sublime_text.exe"] },
+        { "name": "Notepad++", "processes": ["notepad++.exe"] }
+      ]
+    },
+    {
+      "name": "Virtual cameras",
+      "programs": [
+        { "name": "OBS Virtual Camera", "processes": ["obs-virtualcam.exe"] },
+        { "name": "ManyCam", "processes": ["ManyCam.exe"] },
+        { "name": "Snap Camera", "processes": ["Snap Camera.exe"] },
+        { "name": "XSplit VCam", "processes": ["XSplit VCam.exe"] },
+        { "name": "Logitech Capture", "processes": ["Logitech Capture.exe"] },
+        { "name": "DroidCam", "processes": ["DroidCam.exe", "DroidCamClient.exe"] },
+        { "name": "Iriun Webcam", "processes": ["Iriun Webcam.exe"] }
+      ]
+    },
+    {
+      "name": "Emulators and simulators",
+      "programs": [
+        { "name": "BlueStacks", "processes": ["BlueStacks.exe", "HD-Player.exe"] },
+        { "name": "Nox Player", "processes": ["Nox.exe", "NoxVMHandle.exe"] },
+        { "name": "LDPlayer", "processes": ["LDPlayer.exe"] },
+        { "name": "MEmu", "processes": ["MEmu.exe"] },
+        { "name": "Genymotion", "processes": ["genymotion.exe", "player.exe"] }
+      ]
+    },
+    {
+      "name": "Database clients",
+      "programs": [
+        { "name": "DBeaver", "processes": ["dbeaver.exe"] },
+        { "name": "MySQL Workbench", "processes": ["MySQLWorkbench.exe"] },
+        { "name": "pgAdmin", "processes": ["pgAdmin4.exe"] },
+        { "name": "DataGrip", "processes": ["datagrip64.exe"] },
+        { "name": "SQL Server Management Studio", "processes": ["ssms.exe", "Ssms.exe"] },
+        { "name": "Redis Desktop Manager", "processes": ["redis-desktop-manager.exe"] }
+      ]
+    },
+    {
+      "name": "Office and document editors",
+      "programs": [
+        { "name": "Microsoft Word", "processes": ["WINWORD.EXE"] },
+        { "name": "Microsoft Excel", "processes": ["EXCEL.EXE"] },
+        { "name": "Microsoft PowerPoint", "processes": ["POWERPNT.EXE"] },
+        { "name": "Microsoft Outlook", "processes": ["OUTLOOK.EXE"] },
+        { "name": "Microsoft OneNote", "processes": ["ONENOTE.EXE"] },
+        { "name": "LibreOffice", "processes": ["swriter.exe", "scalc.exe", "simpress.exe"] },
+        { "name": "OpenOffice", "processes": ["soffice.exe"] },
+        { "name": "WPS Office", "processes": ["wps.exe", "et.exe", "wpp.exe"] }
+      ]
+    },
+    {
+      "name": "PDF readers",
+      "programs": [
+        { "name": "Adobe Acrobat", "processes": ["Acrobat.exe", "AcroRd32.exe"] },
+        { "name": "Foxit Reader", "processes": ["FoxitReader.exe"] },
+        { "name": "SumatraPDF", "processes": ["SumatraPDF.exe"] },
+        { "name": "Nitro PDF", "processes": ["NitroPDF.exe"] },
+        { "name": "PDF-XChange", "processes": ["PDFXEdit.exe"] }
+      ]
+    },
+    {
+      "name": "Media players",
+      "programs": [
+        { "name": "VLC", "processes": ["vlc.exe"] },
+        { "name": "Windows Media Player", "processes": ["wmplayer.exe"] },
+        { "name": "iTunes", "processes": ["iTunes.exe"] },
+        { "name": "Spotify", "processes": ["Spotify.exe"] },
+        { "name": "Winamp", "processes": ["winamp.exe"] },
+        { "name": "Kodi", "processes": ["kodi.exe"] }
+      ]
+    },
+    {
+      "name": "File managers and transfer tools",
+      "programs": [
+        { "name": "Total Commander", "processes": ["TOTALCMD.exe", "TOTALCMD64.exe"] },
+        { "name": "FileZilla", "processes": ["filezilla.exe"] },
+        { "name": "WinSCP", "processes": ["WinSCP.exe"] },
+        { "name": "Cyberduck", "processes": ["Cyberduck.exe"] },
+        { "name": "PuTTY", "processes": ["putty.exe"] }
+      ]
+    },
+    {
+      "name": "Pentesting and security tools",
+      "programs": [
+        { "name": "Wireshark", "processes": ["Wireshark.exe", "dumpcap.exe"] },
+        { "name": "Burp Suite", "processes": ["burpsuite.exe", "burpsuite_pro.exe"] },
+        { "name": "Nmap", "processes": ["nmap.exe", "zenmap.exe"] },
+        { "name": "Hashcat", "processes": ["hashcat.exe"] },
+        { "name": "Aircrack-ng", "processes": ["Aircrack-ng.exe"] },
+        { "name": "Cain and Abel", "processes": ["Cain.exe"] }
+      ]
+    }
+  ]
+}

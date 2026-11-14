@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "source": "VM-Ghost project",
+  "platform": "darwin",
+  "categories": [
+    {
+      "name": "Virtual machines and guest tools",
+      "programs": [
+        { "name": "VirtualBox", "processes": ["VirtualBox", "VBoxManage"] },
+        { "name": "VirtualBox Guest Additions", "processes": ["VBoxService", "VBoxClient", "VBoxControl"] },
+        { "name": "VMware Fusion", "processes": ["VMware Fusion"] },
+        { "name": "VMware Tools", "processes": ["vmtoolsd", "vmware-tools-daemon"] },
+        { "name": "Parallels Desktop", "processes": ["Parallels Desktop", "prl_vm_app", "prl_disp_service"] },
+        { "name": "Parallels Guest Tools", "processes": ["prl_tools_service"] },
+        { "name": "Docker Desktop", "processes": ["Docker", "com.docker.backend"] },
+        { "name": "UTM", "processes": ["UTM"] },
+        { "name": "QEMU", "processes": ["qemu-system-x86_64", "qemu-system-aarch64"] },
+        { "name": "OrbStack", "processes": ["OrbStack"] }
+      ]
+    },
+    {
+      "name": "Remote desktop",
+      "programs": [
+        { "name": "TeamViewer", "processes": ["TeamViewer"] },
+        { "name": "AnyDesk", "processes": ["AnyDesk"] },
+        { "name": "Screen Sharing (RDP)", "processes": ["ScreenSharing", "AppleVNCServer"] },
+        { "name": "VNC", "processes": ["vncviewer", "VNC Viewer", "OSXvnc"] },
+        { "name": "Splashtop", "processes": ["Splashtop Personal", "Splashtop Streamer"] },
+        { "name": "NoMachine", "processes": ["NoMachine", "nxserver.bin"] },
+        { "name": "Chrome Remote Desktop", "processes": ["Chrome Remote Desktop Host"] },
+        { "name": "RustDesk", "processes": ["RustDesk"] },
+        { "name": "Jump Desktop", "processes": ["Jump Desktop"] }
+      ]
+    },
+    {
+      "name": "Screen capture and recording",
+      "programs": [
+        { "name": "OBS Studio", "processes": ["OBS"] },
+        { "name": "QuickTime Player", "processes": ["QuickTime Player"] },
+        { "name": "Snagit", "processes": ["Snagit", "SnagitHelper"] },
+        { "name": "Camtasia", "processes": ["Camtasia"] },
+        { "name": "ScreenFlow", "processes": ["ScreenFlow"] },
+        { "name": "Loom", "processes": ["Loom"] },
+        { "name": "CleanShot X", "processes": ["CleanShot X"] },
+        { "name": "Capto", "processes": ["Capto"] }
+      ]
+    },
+    {
+      "name": "Messaging and communication",
+      "programs": [
+        { "name": "WhatsApp", "processes": ["WhatsApp"] },
+        { "name": "Telegram", "processes": ["Telegram"] },
+        { "name": "Discord", "processes": ["Discord"] },
+        { "name": "Slack", "processes": ["Slack"] },
+        { "name": "Microsoft Teams", "processes": ["Microsoft Teams"] },
+        { "name": "Zoom", "processes": ["zoom.us"] },
+        { "name": "Skype", "processes": ["Skype"] },
+        { "name": "Signal", "processes": ["Signal"] },
+        { "name": "WeChat", "processes": ["WeChat"] },
+        { "name": "Line", "processes": ["Line"] },
+        { "name": "Viber", "processes": ["Viber"] },
+        { "name": "Webex", "processes": ["Cisco Webex Meetings"] },
+        { "name": "FaceTime", "processes": ["FaceTime"] },
+        { "name": "Messages", "processes": ["Messages"] }
+      ]
+    },
+    {
+      "name": "Web browsers (secondary)",
+      "programs": [
+        { "name": "Google Chrome", "processes": ["Google Chrome"] },
+        { "name": "Mozilla Firefox", "processes": ["firefox"] },
+        { "name": "Safari", "processes": ["Safari"] },
+        { "name": "Opera", "processes": ["Opera"] },
+        { "name": "Brave", "processes": ["Brave Browser"] },
+        { "name": "Tor Browser", "processes": ["Tor Browser"] },
+        { "name": "Edge", "processes": ["Microsoft Edge"] }
+      ]
+    },
+    {
+      "name": "VPN and proxy",
+      "programs": [
+        { "name": "NordVPN", "processes": ["NordVPN"] },
+        { "name": "ExpressVPN", "processes": ["ExpressVPN"] },
+        { "name": "ProtonVPN", "processes": ["ProtonVPN"] },
+        { "name": "OpenVPN Connect", "processes": ["OpenVPN Connect"] },
+        { "name": "WireGuard", "processes": ["WireGuard"] },
+        { "name": "Tailscale", "processes": ["Tailscale"] },
+        { "name": "Surfshark", "processes": ["Surfshark"] },
+        { "name": "Mullvad VPN", "processes": ["Mullvad VPN"] },
+        { "name": "TunnelBear", "processes": ["TunnelBear"] },
+        { "name": "Tunnelblick", "processes": ["Tunnelblick"] },
+        { "name": "Little Snitch", "processes": ["Little Snitch", "little_snitch_daemon"] }
+      ]
+    },
+    {
+      "name": "Audio and video recording",
+      "programs": [
+        { "name": "Audacity", "processes": ["Audacity"] },
+        { "name": "GarageBand", "processes": ["GarageBand"] },
+        { "name": "FL Studio", "processes": ["FL Studio"] },
+        { "name": "Reaper", "processes": ["REAPER"] },
+        { "name": "Logic Pro", "processes": ["Logic Pro"] },
+        { "name": "Adobe Audition", "processes": ["Adobe Audition"] },
+        { "name": "Final Cut Pro", "processes": ["Final Cut Pro"] },
+        { "name": "iMovie", "processes": ["iMovie"] }
+      ]
+    },
+    {
+      "name": "Development tools and IDEs",
+      "programs": [
+        { "name": "Visual Studio Code", "processes": ["Visual Studio Code", "Code"] },
+        { "name": "IntelliJ IDEA", "processes": ["IntelliJ IDEA"] },
+        { "name": "PyCharm", "processes": ["PyCharm"] },
+        { "name": "Eclipse", "processes": ["Eclipse"] },
+        { "name": "Android Studio", "processes": ["Android Studio"] },
+        { "name": "Xcode", "processes": ["Xcode"] },
+        { "name": "WebStorm", "processes": ["WebStorm"] },
+        { "name": "Sublime Text", "processes": ["Sublime Text"] },
+        { "name": "DataGrip", "processes": ["DataGrip"] },
+        { "name": "BBEdit", "processes": ["BBEdit"] }
+      ]
+    },
+    {
+      "name": "Virtual cameras",
+      "programs": [
+        { "name": "OBS Virtual Camera", "processes": ["OBS Virtual Camera"] },
+        { "name": "ManyCam", "processes": ["ManyCam"] },
+        { "name": "Snap Camera", "processes": ["Snap Camera"] },
+        { "name": "CamTwist", "processes": ["CamTwist"] },
+        { "name": "Iriun Webcam", "processes": ["Iriun Webcam"] },
+        { "name": "DroidCam", "processes": ["DroidCam OBS"] },
+        { "name": "EpocCam", "processes": ["EpocCam"] }
+      ]
+    },
+    {
+      "name": "Emulators and simulators",
+      "programs": [
+        { "name": "BlueStacks", "processes": ["BlueStacks"] },
+        { "name": "Genymotion", "processes": ["Genymotion"] },
+        { "name": "Wine", "processes": ["wine", "wine64"] },
+        { "name": "CrossOver", "processes": ["CrossOver"] },
+        { "name": "Whisky", "processes": ["Whisky"] }
+      ]
+    },
+    {
+      "name": "Database clients",
+      "programs": [
+        { "name": "DBeaver", "processes": ["DBeaver"] },
+        { "name": "MySQL Workbench", "processes": ["MySQLWorkbench"] },
+        { "name": "pgAdmin", "processes": ["pgAdmin 4"] },
+        { "name": "DataGrip", "processes": ["DataGrip"] },
+        { "name": "Sequel Ace", "processes": ["Sequel Ace"] },
+        { "name": "TablePlus", "processes": ["TablePlus"] },
+        { "name": "Redis Insight", "processes": ["RedisInsight"] }
+      ]
+    },
+    {
+      "name": "Office and document editors",
+      "programs": [
+        { "name": "Microsoft Word", "processes": ["Microsoft Word"] },
+        { "name": "Microsoft Excel", "processes": ["Microsoft Excel"] },
+        { "name": "Microsoft PowerPoint", "processes": ["Microsoft PowerPoint"] },
+        { "name": "Microsoft Outlook", "processes": ["Microsoft Outlook"] },
+        { "name": "Microsoft OneNote", "processes": ["Microsoft OneNote"] },
+        { "name": "Pages", "processes": ["Pages"] },
+        { "name": "Numbers", "processes": ["Numbers"] },
+        { "name": "Keynote", "processes": ["Keynote"] },
+        { "name": "LibreOffice", "processes": ["LibreOffice", "soffice.bin"] }
+      ]
+    },
+    {
+      "name": "PDF readers",
+      "programs": [
+        { "name": "Adobe Acrobat", "processes": ["Adobe Acrobat"] },
+        { "name": "Preview", "processes": ["Preview"] },
+        { "name": "Foxit Reader", "processes": ["Foxit Reader"] },
+        { "name": "PDF Expert", "processes": ["PDF Expert"] }
+      ]
+    },
+    {
+      "name": "Media players",
+      "programs": [
+        { "name": "VLC", "processes": ["VLC"] },
+        { "name": "Music (iTunes)", "processes": ["Music"] },
+        { "name": "Spotify", "processes": ["Spotify"] },
+        { "name": "Kodi", "processes": ["Kodi"] },
+        { "name": "IINA", "processes": ["IINA"] },
+        { "name": "QuickTime Player", "processes": ["QuickTime Player"] }
+      ]
+    },
+    {
+      "name": "File managers and transfer tools",
+      "programs": [
+        { "name": "FileZilla", "processes": ["FileZilla"] },
+        { "name": "Cyberduck", "processes": ["Cyberduck"] },
+        { "name": "Transmit", "processes": ["Transmit"] },
+        { "name": "ForkLift", "processes": ["ForkLift"] }
+      ]
+    },
+    {
+      "name": "Pentesting and security tools",
+      "programs": [
+        { "name": "Wireshark", "processes": ["Wireshark"] },
+        { "name": "Burp Suite", "processes": ["Burp Suite"] },
+        { "name": "Nmap/Zenmap", "processes": ["Zenmap", "nmap"] },
+        { "name": "Metasploit", "processes": ["msfconsole", "msfd"] },
+        { "name": "Hashcat", "processes": ["hashcat"] },
+        { "name": "Aircrack-ng", "processes": ["aircrack-ng"] }
+      ]
+    }
+  ]
+}

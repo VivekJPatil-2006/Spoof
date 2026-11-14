@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "source": "VM-Ghost project",
+  "platform": "linux",
+  "categories": [
+    {
+      "name": "Virtual machines and guest tools",
+      "programs": [
+        { "name": "VirtualBox", "processes": ["VirtualBox", "VBoxManage", "VirtualBoxVM"] },
+        { "name": "VirtualBox Guest Additions", "processes": ["VBoxClient", "VBoxService", "VBoxControl"] },
+        { "name": "VMware Workstation", "processes": ["vmplayer", "vmware"] },
+        { "name": "VMware Tools", "processes": ["vmtoolsd", "vmware-vmblock-fuse"] },
+        { "name": "QEMU", "processes": ["qemu-system-x86_64", "qemu-system-i386", "qemu-system-aarch64"] },
+        { "name": "QEMU Guest Agent", "processes": ["qemu-ga", "spice-vdagent"] },
+        { "name": "KVM", "processes": ["kvm", "qemu-kvm"] },
+        { "name": "Docker", "processes": ["docker", "dockerd", "containerd"] },
+        { "name": "Podman", "processes": ["podman", "podman-desktop"] },
+        { "name": "GNOME Boxes", "processes": ["gnome-boxes"] },
+        { "name": "Virt Manager", "processes": ["virt-manager", "virt-manager-app"] },
+        { "name": "LXD", "processes": ["lxd", "lxc"] }
+      ]
+    },
+    {
+      "name": "Remote desktop",
+      "programs": [
+        { "name": "TeamViewer", "processes": ["teamviewer"] },
+        { "name": "AnyDesk", "processes": ["anydesk"] },
+        { "name": "xRDP", "processes": ["xrdp", "xrdp-sesman"] },
+        { "name": "VNC", "processes": ["vncviewer", "x11vnc", "tigervncserver", "vncserver"] },
+        { "name": "NoMachine", "processes": ["nxclient", "nxserver.bin"] },
+        { "name": "RustDesk", "processes": ["rustdesk"] },
+        { "name": "Remmina", "processes": ["remmina"] },
+        { "name": "FreeRDP", "processes": ["xfreerdp", "freerdp"] },
+        { "name": "Chrome Remote Desktop", "processes": ["chrome-remote-desktop"] }
+      ]
+    },
+    {
+      "name": "Screen capture and recording",
+      "programs": [
+        { "name": "OBS Studio", "processes": ["obs", "obs64"] },
+        { "name": "SimpleScreenRecorder", "processes": ["simplescreenrecorder"] },
+        { "name": "Kazam", "processes": ["kazam"] },
+        { "name": "RecordMyDesktop", "processes": ["recordmydesktop"] },
+        { "name": "Screenkey", "processes": ["screenkey"] },
+        { "name": "Peek", "processes": ["peek"] },
+        { "name": "Kooha", "processes": ["kooha"] },
+        { "name": "OBS Virtual Camera", "processes": ["obs-virtualcam"] }
+      ]
+    },
+    {
+      "name": "Messaging and communication",
+      "programs": [
+        { "name": "Telegram", "processes": ["telegram-desktop", "Telegram"] },
+        { "name": "Discord", "processes": ["discord", "Discord"] },
+        { "name": "Slack", "processes": ["slack"] },
+        { "name": "Microsoft Teams", "processes": ["teams"] },
+        { "name": "Zoom", "processes": ["zoom"] },
+        { "name": "Skype", "processes": ["skype", "skypeforlinux"] },
+        { "name": "Signal", "processes": ["signal-desktop"] },
+        { "name": "WhatsApp", "processes": ["whatsapp", "whatsapp-desktop"] },
+        { "name": "Webex", "processes": ["Webex"] },
+        { "name": "Rocketchat", "processes": ["rocketchat-desktop"] },
+        { "name": "Mattermost", "processes": ["mattermost-desktop"] },
+        { "name": "Riot/Element", "processes": ["element-desktop"] }
+      ]
+    },
+    {
+      "name": "Web browsers (secondary)",
+      "programs": [
+        { "name": "Google Chrome", "processes": ["chrome", "google-chrome", "google-chrome-stable"] },
+        { "name": "Mozilla Firefox", "processes": ["firefox"] },
+        { "name": "Chromium", "processes": ["chromium", "chromium-browser"] },
+        { "name": "Opera", "processes": ["opera"] },
+        { "name": "Brave", "processes": ["brave", "brave-browser"] },
+        { "name": "Tor Browser", "processes": ["tor-browser", "firefox"] },
+        { "name": "Vivaldi", "processes": ["vivaldi"] },
+        { "name": "Edge", "processes": ["microsoft-edge"] }
+      ]
+    },
+    {
+      "name": "VPN and proxy",
+      "programs": [
+        { "name": "OpenVPN", "processes": ["openvpn"] },
+        { "name": "WireGuard", "processes": ["wireguard", "wg-quick"] },
+        { "name": "Tailscale", "processes": ["tailscale", "tailscaled"] },
+        { "name": "ProtonVPN", "processes": ["protonvpn", "protonvpn-gui"] },
+        { "name": "Mullvad VPN", "processes": ["mullvad", "mullvad-vpn"] },
+        { "name": "NordVPN", "processes": ["nordvpn", "nordvpnui"] },
+        { "name": "ExpressVPN", "processes": ["expressvpn"] },
+        { "name": "StrongSwan", "processes": ["strongswan", "charon"] },
+        { "name": "OpenConnect", "processes": ["openconnect", "openconnect-gp"] },
+        { "name": "SoftEther", "processes": ["vpnclient", "vpncmd"] }
+      ]
+    },
+    {
+      "name": "Audio and video recording",
+      "programs": [
+        { "name": "Audacity", "processes": ["audacity"] },
+        { "name": "Reaper", "processes": ["reaper"] },
+        { "name": "OBS Studio", "processes": ["obs", "obs64"] },
+        { "name": "LMMS", "processes": ["lmms"] },
+        { "name": "Ardour", "processes": ["ardour"] },
+        { "name": "Hydrogen", "processes": ["hydrogen"] },
+        { "name": "Jack Audio", "processes": ["jackd", "jackdbus", "pw-jack"] },
+        { "name": "PulseAudio", "processes": ["pulseaudio", "pipewire"] }
+      ]
+    },
+    {
+      "name": "Development tools and IDEs",
+      "programs": [
+        { "name": "Visual Studio Code", "processes": ["code", "code-insiders"] },
+        { "name": "IntelliJ IDEA", "processes": ["idea", "idea.sh"] },
+        { "name": "PyCharm", "processes": ["pycharm", "pycharm.sh"] },
+        { "name": "Eclipse", "processes": ["eclipse"] },
+        { "name": "Android Studio", "processes": ["studio", "studio.sh"] },
+        { "name": "NetBeans", "processes": ["netbeans"] },
+        { "name": "WebStorm", "processes": ["webstorm"] },
+        { "name": "Sublime Text", "processes": ["subl", "sublime_text"] },
+        { "name": "DataGrip", "processes": ["datagrip"] },
+        { "name": "Vim/Neovim", "processes": ["vim", "nvim"] },
+        { "name": "Emacs", "processes": ["emacs", "emacsclient"] },
+        { "name": "Geany", "processes": ["geany"] }
+      ]
+    },
+    {
+      "name": "Virtual cameras",
+      "programs": [
+        { "name": "OBS Virtual Camera", "processes": ["obs-virtualcam"] },
+        { "name": "DroidCam", "processes": ["droidcam", "droidcam-cli"] },
+        { "name": "Iriun Webcam", "processes": ["iriunwebcam"] },
+        { "name": "v4l2loopback", "processes": ["v4l2loopback-ctl"] },
+        { "name": "akvcam", "processes": ["akvcam"] }
+      ]
+    },
+    {
+      "name": "Emulators and simulators",
+      "programs": [
+        { "name": "Wine", "processes": ["wine", "wine64", "wineserver"] },
+        { "name": "CrossOver", "processes": ["crossover"] },
+        { "name": "Genymotion", "processes": ["genymotion", "player"] },
+        { "name": "Anbox", "processes": ["anbox", "anbox-container-manager"] },
+        { "name": "Waydroid", "processes": ["waydroid", "waydroid-container"] }
+      ]
+    },
+    {
+      "name": "Database clients",
+      "programs": [
+        { "name": "DBeaver", "processes": ["dbeaver"] },
+        { "name": "MySQL Workbench", "processes": ["mysql-workbench", "mysql-workbench-bin"] },
+        { "name": "pgAdmin", "processes": ["pgadmin4", "pgadmin"] },
+        { "name": "DataGrip", "processes": ["datagrip"] },
+        { "name": "Redis Desktop Manager", "processes": ["redis-desktop-manager"] },
+        { "name": "DbGate", "processes": ["dbgate"] },
+        { "name": "sqlitebrowser", "processes": ["sqlitebrowser", "DB Browser for SQLite"] }
+      ]
+    },
+    {
+      "name": "Office and document editors",
+      "programs": [
+        { "name": "LibreOffice Writer", "processes": ["libreoffice", "swriter", "oosplash"] },
+        { "name": "LibreOffice Calc", "processes": ["scalc"] },
+        { "name": "LibreOffice Impress", "processes": ["simpress"] },
+        { "name": "OpenOffice", "processes": ["soffice"] },
+        { "name": "OnlyOffice", "processes": ["onlyoffice-desktopeditors"] },
+        { "name": "WPS Office", "processes": ["wps", "et", "wpp"] },
+        { "name": "Calligra", "processes": ["calligrawords", "calligrasheets"] },
+        { "name": "AbiWord", "processes": ["abiword"] }
+      ]
+    },
+    {
+      "name": "PDF readers",
+      "programs": [
+        { "name": "Evince", "processes": ["evince"] },
+        { "name": "Okular", "processes": ["okular"] },
+        { "name": "Zathura", "processes": ["zathura"] },
+        { "name": "Foxit Reader", "processes": ["FoxitReader"] },
+        { "name": "MuPDF", "processes": ["mupdf", "mupdf-gl"] },
+        { "name": "Acroread", "processes": ["acroread"] }
+      ]
+    },
+    {
+      "name": "Media players",
+      "programs": [
+        { "name": "VLC", "processes": ["vlc"] },
+        { "name": "Spotify", "processes": ["spotify"] },
+        { "name": "Kodi", "processes": ["kodi"] },
+        { "name": "Rhythmbox", "processes": ["rhythmbox"] },
+        { "name": "Audacious", "processes": ["audacious"] },
+        { "name": "MPV", "processes": ["mpv"] },
+        { "name": "SMPlayer", "processes": ["smplayer"] },
+        { "name": "Totem", "processes": ["totem", "totem-video-encoder"] }
+      ]
+    },
+    {
+      "name": "File managers and transfer tools",
+      "programs": [
+        { "name": "FileZilla", "processes": ["filezilla"] },
+        { "name": "Midnight Commander", "processes": ["mc"] },
+        { "name": "Double Commander", "processes": ["doublecmd"] },
+        { "name": "Krusader", "processes": ["krusader"] },
+        { "name": "Thunar", "processes": ["thunar"] },
+        { "name": "Nautilus", "processes": ["nautilus", "gnome-files"] },
+        { "name": "Dolphin", "processes": ["dolphin"] },
+        { "name": "Nemo", "processes": ["nemo"] }
+      ]
+    },
+    {
+      "name": "Pentesting and security tools",
+      "programs": [
+        { "name": "Wireshark", "processes": ["wireshark", "dumpcap", "tshark"] },
+        { "name": "Burp Suite", "processes": ["burpsuite", "burpsuite_pro"] },
+        { "name": "Nmap", "processes": ["nmap", "zenmap"] },
+        { "name": "Metasploit", "processes": ["msfconsole", "msfd", "msfrpcd"] },
+        { "name": "Hashcat", "processes": ["hashcat"] },
+        { "name": "Aircrack-ng", "processes": ["aircrack-ng", "airmon-ng"] },
+        { "name": "John the Ripper", "processes": ["john"] },
+        { "name": "Hydra", "processes": ["hydra"] },
+        { "name": "Sqlmap", "processes": ["sqlmap"] },
+        { "name": "Nikto", "processes": ["nikto"] },
+        { "name": "Kali tools", "processes": ["kali-menu", "kali-themes"] }
+      ]
+    }
+  ]
+}
